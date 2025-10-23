@@ -21,7 +21,7 @@ export default function ModalidadesSection() {
               </div>
 
               <p className="text-lg text-secondary-black/90 mb-6 font-semibold">
-                Diagnóstico inicial. Identificamos dolores, entendemos el contexto real de la empresa y definimos el "qué" que debemos mejorar, qué procesos fortalecer, qué productos potenciar.
+                Diagnóstico inicial. Identificamos dolores, entendemos el contexto real de la empresa y definimos el &quot;qué&quot; que debemos mejorar, qué procesos fortalecer, qué productos potenciar.
               </p>
 
               <div className="space-y-3 text-secondary-black/80">
@@ -41,7 +41,7 @@ export default function ModalidadesSection() {
               </div>
 
               <p className="text-lg text-secondary-black/90 mb-6 font-semibold">
-                La nueva etapa. Diseñamos el "cómo": cómo ejecutar cambios, cómo fortalecer equipos, cómo transformar el negocio en una nueva realidad sostenible y de alto valor.
+                La nueva etapa. Diseñamos el &quot;cómo&quot;: cómo ejecutar cambios, cómo fortalecer equipos, cómo transformar el negocio en una nueva realidad sostenible y de alto valor.
               </p>
 
               <div className="space-y-3 text-secondary-black/80">
