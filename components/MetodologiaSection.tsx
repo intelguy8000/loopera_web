@@ -54,9 +54,8 @@ export default function MetodologiaSection() {
 
           {/* Beneficios */}
           <div className="mt-16 bg-secondary-gray/20 p-8 rounded-2xl">
-            <h3 className="text-2xl font-bold text-secondary-black mb-6 text-center">
-              Transformar un negocio no requiere grandes cambios,<br />
-              sino decisiones valientes y un buen acompañamiento
+            <h3 className="text-xl md:text-2xl font-bold text-secondary-black mb-6 text-center leading-relaxed">
+              Transformar un negocio no requiere grandes cambios, sino decisiones valientes y un buen acompañamiento
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="flex items-start gap-3">
