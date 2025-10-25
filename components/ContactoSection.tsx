@@ -53,7 +53,7 @@ export default function ContactoSection() {
                 </svg>
               </div>
               <h3 className="font-semibold text-secondary-black mb-2">LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/santiago-lopera-mesa" target="_blank" rel="noopener noreferrer" className="text-[#0A66C2] hover:underline">
+              <a href="https://co.linkedin.com/in/santiagoloperamesa" target="_blank" rel="noopener noreferrer" className="text-[#0A66C2] hover:underline">
                 Santiago Lopera Mesa
               </a>
             </div>

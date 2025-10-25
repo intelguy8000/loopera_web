@@ -256,7 +256,7 @@ className="font-lexend"            // Lexend Deca
 
 - **Email**: santiago.lopera@loopera.co
 - **WhatsApp**: +57 (316) 288-8832
-- **LinkedIn**: [Santiago Lopera Mesa](https://www.linkedin.com/in/santiago-lopera-mesa)
+- **LinkedIn**: [Santiago Lopera Mesa](https://co.linkedin.com/in/santiagoloperamesa)
 
 **Editar en**: `components/ContactoSection.tsx` y `components/Footer.tsx`
 

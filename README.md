@@ -250,7 +250,7 @@ Si encuentras algún problema:
 **Santiago Lopera Mesa**
 - **Email**: santiago.lopera@loopera.co
 - **WhatsApp**: +57 (316) 288-8832
-- **LinkedIn**: [Santiago Lopera Mesa](https://www.linkedin.com/in/santiago-lopera-mesa)
+- **LinkedIn**: [Santiago Lopera Mesa](https://co.linkedin.com/in/santiagoloperamesa)
 
 **Desarrollo Técnico**
 - **Partner**: Juan Andrés García

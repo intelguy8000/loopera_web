@@ -39,7 +39,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/santiago-lopera-mesa"
+                  href="https://co.linkedin.com/in/santiagoloperamesa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
