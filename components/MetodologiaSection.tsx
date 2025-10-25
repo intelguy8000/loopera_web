@@ -1,10 +1,10 @@
-export default function ModalidadesSection() {
+export default function MetodologiaSection() {
   return (
-    <section id="modalidades" className="py-20 bg-white">
+    <section id="metodologia" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-secondary-black mb-4 text-center">
-            Modalidades de Trabajo
+            Metodología de Trabajo
           </h2>
           <p className="text-xl text-secondary-black/70 mb-12 text-center max-w-3xl mx-auto">
             LOOP + ERA
@@ -21,7 +21,7 @@ export default function ModalidadesSection() {
               </div>
 
               <p className="text-lg text-secondary-black/90 mb-6 font-semibold">
-                Diagnóstico inicial. Identificamos dolores, entendemos el contexto real de la empresa y definimos el &quot;qué&quot; que debemos mejorar, qué procesos fortalecer, qué productos potenciar.
+                Diagnóstico inicial. Identificamos dolores, entendemos el contexto real de la empresa y definimos el &quot;qué&quot;: que debemos mejorar, qué procesos fortalecer, qué productos potenciar.
               </p>
 
               <div className="space-y-3 text-secondary-black/80">

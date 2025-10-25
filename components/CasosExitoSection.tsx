@@ -1,34 +1,40 @@
 export default function CasosExitoSection() {
   const casos = [
     {
-      empresa: 'PUKPET',
-      sector: 'Comercializadora de Mascotas (Textil)',
-      descripcion: 'Reestructuración de procesos en producción y distribución, logrando un acompañamiento estratégico comercial.'
+      empresa: 'De Lolita',
+      descripcion: 'Transformé una cadena de cafés fragmentada en una organización con liderazgo en cada punto de venta. Formé a sus encargados en finanzas, indicadores, inventarios y servicio, logrando que cada tienda operara como una unidad rentable y autónoma. El cambio se reflejó en mejores ventas, mayor rentabilidad y una cultura de gestión sólida.'
     },
     {
-      empresa: 'FELICIA',
-      sector: 'Veterinarios a Domicilio',
-      descripcion: 'Organización de las cifras del negocio. Definición de indicadores clave y plan estratégico basado en marketing digital y referidos.'
+      empresa: 'Alitas Colombianas',
+      descripcion: 'Reinventamos por completo su proceso productivo: pasaron de una operación ineficiente y riesgosa a un modelo industrial de precocción, abatimiento y empaque al vacío. El producto ganó 30 días de vida útil, se redujo el consumo de aceite en más de $500 millones anuales y se estandarizó la calidad. Una verdadera revolución en eficiencia y rentabilidad.'
     },
     {
-      empresa: 'SNATCH',
-      sector: 'Gimnasios',
-      descripcion: 'Organización financiera, elaboración del plan de negocio, presupuesto de capital de trabajo para una nueva apertura.'
+      empresa: 'Jotagro',
+      descripcion: 'Acompañé la transición generacional tras el fallecimiento del fundador. Formé a la nueva gerente en liderazgo, finanzas y dirección estratégica. Desde entonces, la empresa ha fortalecido su gestión comercial, logística y control, con un modelo de gobierno que asegura sostenibilidad y crecimiento.'
     },
     {
-      empresa: 'AFS',
-      sector: 'Importadora y Comercializadora',
-      descripcion: 'Organización financiera, diseño de análisis de portafolio, control del nuevo gerente y estructuración de estrategias comerciales.'
+      empresa: 'APS Supply',
+      descripcion: 'Durante tres años lideré el proceso de relevo generacional y transformación estratégica. Formé al nuevo gerente, estructuramos finanzas, estrategia comercial y gobierno corporativo. Hoy, la empresa crece de forma sólida y hago parte de su junta directiva como asesor estratégico.'
     },
     {
-      empresa: 'JOTAGRO',
-      sector: 'Comercializadora de Productos Veterinarios',
-      descripcion: 'Formación gerencial y acompañamiento en finanzas, acompañamiento estratégico, optimización de costos, estructuración y seguimiento de relevo generacional, empoderamiento del nuevo liderazgo.'
+      empresa: 'Felicia',
+      descripcion: 'Convertimos una idea de veterinarios a domicilio en un negocio sostenible. Ordenamos sus finanzas, estructuramos la estrategia comercial y acompañé a su fundadora en la toma de decisiones clave para escalar con rentabilidad y claridad.'
     },
     {
-      empresa: 'DOLVET',
-      sector: 'Golosinas y Juguetería',
-      descripcion: 'Formación de creadores en el manejo empresarial, transformación del manejo de la empresa y visión de largo plazo, creación del modelo de expansión y de nuevas líneas de negocio.'
+      empresa: 'Smatch',
+      descripcion: 'Reestructuramos la estrategia financiera y de mercadeo de este gimnasio de alto rendimiento. Diseñamos su presupuesto de expansión y trasladamos su operación a una nueva sede con un modelo de costos eficiente y proyección de crecimiento.'
+    },
+    {
+      empresa: 'Masa Excavaciones',
+      descripcion: 'Construimos un tablero de control integral que conecta cada área con los resultados del negocio. Definimos KPI\'s, formamos equipos y logramos una gestión basada en datos, claridad y velocidad para tomar decisiones.'
+    },
+    {
+      empresa: 'Fukutex',
+      descripcion: 'Estoy acompañando a la segunda generación en la profesionalización de su empresa textil. Juntos hemos definido estrategia comercial, estructura del equipo, presupuestos y controles para impulsar un crecimiento ordenado y sostenible.'
+    },
+    {
+      empresa: 'El Güey Taquería',
+      descripcion: 'Acompaño a dos emprendedores en convertir su taquería en una cadena. Comenzamos con formación financiera y de gestión, y ahora estamos estructurando su plan de expansión a seis puntos, con procesos, marca y números listos para escalar con éxito.'
     }
   ];
 
@@ -46,8 +52,7 @@ export default function CasosExitoSection() {
                 <div className="w-16 h-16 bg-primary-red rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <span className="text-white text-xl font-bold">{caso.empresa.charAt(0)}</span>
                 </div>
-                <h3 className="text-xl font-bold text-primary-red mb-2">{caso.empresa}</h3>
-                <p className="text-sm text-secondary-black/60 mb-3">{caso.sector}</p>
+                <h3 className="text-xl font-bold text-primary-red mb-4">{caso.empresa}</h3>
                 <p className="text-secondary-black/80 text-sm leading-relaxed">{caso.descripcion}</p>
               </div>
             ))}

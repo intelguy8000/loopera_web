@@ -38,16 +38,16 @@ export default function HeroSection() {
 
           <div className="pt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary-red mb-2">17+</div>
+              <div className="text-4xl font-bold text-primary-red mb-2">+20</div>
               <div className="text-secondary-black/70">Años de experiencia</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary-red mb-2">6</div>
-              <div className="text-secondary-black/70">Países en Latinoamérica</div>
+              <div className="text-4xl font-bold text-primary-red mb-2">🇨🇴</div>
+              <div className="text-secondary-black/70">Enfoque en Colombia</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary-red mb-2">+50</div>
-              <div className="text-secondary-black/70">Empresas transformadas</div>
+              <div className="text-4xl font-bold text-primary-red mb-2">∞</div>
+              <div className="text-secondary-black/70">Múltiples empresas</div>
             </div>
           </div>
         </div>

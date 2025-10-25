@@ -8,7 +8,7 @@ export default function ParaQuienSection() {
     {
       title: 'Emprendimientos en Crecimiento',
       icon: '🚀',
-      descripcion: 'Negocios que han nacido con mucho músculo, pero que necesitan ordenar sus números y estructurar sus procesos. Entender sus números y poner orden para que no pierdan esencia al crecer sin control.'
+      descripcion: 'Negocios que han nacido con mucho esfuerzo, pero necesitan ordenar sus finanzas, entender sus números y estructurar procesos que les permita escalar sin perder el control ni la esencia.'
     },
     {
       title: 'Negocios con Potencial que Necesitan Dirección',

@@ -4,7 +4,7 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import HeroSection from '@/components/HeroSection';
 import SobreMiSection from '@/components/SobreMiSection';
 import ManifiestoSection from '@/components/ManifiestoSection';
-import ModalidadesSection from '@/components/ModalidadesSection';
+import MetodologiaSection from '@/components/MetodologiaSection';
 import ServiciosSection from '@/components/ServiciosSection';
 import CasosExitoSection from '@/components/CasosExitoSection';
 import ParaQuienSection from '@/components/ParaQuienSection';
@@ -17,7 +17,7 @@ export default function Home() {
       <HeroSection />
       <SobreMiSection />
       <ManifiestoSection />
-      <ModalidadesSection />
+      <MetodologiaSection />
       <ServiciosSection />
       <CasosExitoSection />
       <ParaQuienSection />
