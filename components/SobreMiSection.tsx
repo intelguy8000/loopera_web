@@ -1,18 +1,22 @@
+import Image from 'next/image';
+
 export default function SobreMiSection() {
   return (
     <section id="sobre-mi" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Imagen placeholder - puedes reemplazar con la foto de Santiago */}
+            {/* Foto de Santiago Lopera */}
             <div className="relative">
-              <div className="aspect-square bg-secondary-gray/30 rounded-2xl overflow-hidden">
-                {/* Placeholder para imagen de Santiago */}
-                <div className="w-full h-full flex items-center justify-center text-secondary-black/30">
-                  <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                  </svg>
-                </div>
+              <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/santiago-lopera.jpg"
+                  alt="Santiago Lopera Mesa - Consultor Estratégico"
+                  width={800}
+                  height={800}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
             </div>
 
